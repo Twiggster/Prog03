@@ -2,16 +2,24 @@ body {
 	background-color: green;
 	border: 2px dashed black;
 	padding: 380px;
+	
 }
 
+fieldset{
+	outline:3px dotted black;
+}
+
+legend{
+	outline: 2px dotted black;
+}
 
 td{
-	
-	color: black;
+	color: white;
 	font-family: veranda;
 	font-size: 110%
+	font-kerning: normal;
 }
 
 #a{
-	background-color:yellow;
+	background-color: powderblue;
 }
