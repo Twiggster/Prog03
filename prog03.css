@@ -1,0 +1,17 @@
+body {
+	background-color: green;
+	border: 2px dashed black;
+	padding: 380px;
+}
+
+
+td{
+	
+	color: black;
+	font-family: veranda;
+	font-size: 110%
+}
+
+#a{
+	background-color:yellow;
+}
