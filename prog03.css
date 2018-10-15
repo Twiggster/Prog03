@@ -9,17 +9,35 @@ fieldset{
 	outline:3px dotted black;
 }
 
-legend{
-	outline: 2px dotted black;
+Masters{
+<p>The <abbr title="Three Hole Tournament">Masters</abbr> was founded in 2018.</p>
 }
+
+
 
 td{
 	color: white;
-	font-family: veranda;
+	font-family: Arial;
 	font-size: 110%
 	font-kerning: normal;
 }
 
 #a{
+	background-color: powderblue;
+}
+
+#b{
+	background-color: powderblue;
+}
+#c{
+	background-color: powderblue;
+}
+#q{
+	background-color: powderblue;
+}
+#r{
+	background-color: powderblue;
+}
+#s{
 	background-color: powderblue;
 }
