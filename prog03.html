@@ -5,40 +5,73 @@
 
 
 <body>
-<form oninput = "x.value = parseInt(a.value) + parseInt(b.value) + parseInt(c.value;
-y.value = parseInt(q.value)+parseInt(r.value)+parseInt(s.value); ">
-
-<table border="1">
-	<p> Enter what each player shot for the Three-hole tournament. </p>
-	<tr>
-		<td>Hole </td><td>1</td> <td>2</td> <td>3</td> 
-	</tr>
-	<tr>
-		<td>Par </td><td>4</td> <td>3</td> <td>4</td> 
-	<tr>
-		<td>Watson:</td> <td><input t="number" size="1" id="a" value="0"></td> <td><input t="number" size="1"
-		id="b" value="0"></td> <td><input t="number" size="1" id="c" value="0"></td> <output name="x" for"a b c"/>
-	</tr>
-	<tr>
-		<td>Spieth:</td> <td><input t="number" size="1" id="q" value="0"></td> <td><input t="number" size="1"
-		id="r" value="0"></td> <td><input t="number" size="1" id="s" value="0"></td> <output name="y" for"q r s"/>
-	</tr>
-</table>
-<p> 
-
-
-</P>
-<fieldset>
-	<p> Select who won the tournament. </p>
-		<legend>Masters:</legend>
-			Place:
+<form oninput="teamATotal.value=parseInt(RWp1.value)+parseInt(RWp2.value)+parseInt(RWp3.value)
+		teamBTotal.value=parseInt(Sp1.value)+parseInt(Sp2.value)+parseInt(Sp3.value)">
+    <fieldset>
+        <legend>Hockey Score </legend>
+        <table id = "table">
+            <tr>
+                <td></td>
+                <td>
+                    <h1 class = "TeamA">Red Wings</h1>
+                </td>
+                <td>
+                    <h1 class = "TeamB">Sabres</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Period 1</p>
+                </td>
+                <td>
+                    <input type="number" name="RWscore" id="RWp1" value="0">
+                </td>
+                <td>
+                    <input type="number" name="Sabscore" id="Sp1" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Period 2</p>
+                </td>
+                <td>
+                    <input type="number" name="RWscore" id="RWp2" value="0">
+                </td>
+                <td>
+                    <input type="number" name="Sabscore" id="Sp2" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Period 3</p>
+                </td>
+                <td>
+                    <input type="number" name="RWscore" id="RWp3" value="0">
+                </td>
+                <td>
+                    <input type="number" name="Sabscore" id="Sp3" value="0">
+                </td>
+            </tr>
+            <tr>
+			<tr>
+                <td>
+                    <p>Totals:</p>
+                </td> 
+                <td class= "TotalA">
+                    <output name="teamATotal" for="RWp1 RWp2 RWp3"></output>
+                </td>
+                <td class= "TotalB">
+                    <output name="teamBTotal" for="Sp1 Sp2 Sp3"></output>
+                </td>
+            </tr>
+        </table>
+			Who Won?
 		<select>
-			  <option value="1st">1st Watson</option>
-			  <option value="2nd">2nd Watson</option>
-			  <option value="1stS">1st Spieth</option>
-			  <option value="2ndS">2nd Spieth</option>
+			  <option value="1st">Red Wings WIN!!!</option>
+			  <option value="2nd">BOO Sabres win:( </option>
+			  
 		</select> 
-</fieldset>
-
+    </fieldset>
 </form>
-</body> 	
+</body>
+</html>
