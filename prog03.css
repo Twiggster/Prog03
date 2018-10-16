@@ -1,19 +1,16 @@
 body {
-	background-color: green;
+	background-color: blue;
 	border: 2px dashed black;
 	padding: 380px;
 	
+}
+table{
+	width="10";
 }
 
 fieldset{
 	outline:3px dotted black;
 }
-
-Masters{
-<p>The <abbr title="Three Hole Tournament">Masters</abbr> was founded in 2018.</p>
-}
-
-
 
 td{
 	color: white;
@@ -22,22 +19,23 @@ td{
 	font-kerning: normal;
 }
 
-#a{
-	background-color: powderblue;
+
+td.TotalA {
+	color: red;
+	font-weight: bold;
+	font-size: 2em;
 }
 
-#b{
-	background-color: powderblue;
+td.TotalB {
+	color: black;
+	font-weight: bold;
+	font-size: 2em;
 }
-#c{
-	background-color: powderblue;
+
+h1.TeamA{
+	color: red;
 }
-#q{
-	background-color: powderblue;
-}
-#r{
-	background-color: powderblue;
-}
-#s{
-	background-color: powderblue;
+
+h1.TeamB{
+	color: gray;
 }
